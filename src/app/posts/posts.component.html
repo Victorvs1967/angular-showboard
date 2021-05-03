@@ -1,0 +1,8 @@
+<mat-card *ngFor="let post of posts">
+  <mat-card-title>{{ post.title }}</mat-card-title>
+  <hr />
+  <mat-card-content>{{ post.body }}</mat-card-content>
+  <mat-card-subtitle class="card-footer">
+    <span>{{ post.userId }}</span>
+  </mat-card-subtitle>
+</mat-card>
